@@ -1,0 +1,231 @@
+:root {
+    --background-color: #F4F4FD;
+    --accent-text-color: #4D5AE5;
+    --text-color: #434455;
+    --secondary-text-color: #2E2F42;
+    --action-color: #404BBF;
+
+}
+
+body {
+    font-family:"Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
+}
+
+
+.link {
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+}
+
+.header-logo {
+    color: var(--accent-text-color);
+font-size: 18px;
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+line-height: 1.17; /* 21px/18 */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+
+.header-logo-accent{
+    color: var(--secondary-text-color);
+    font-family: "Raleway", sans-serif;
+}
+
+.header-list-link {
+    color: var(--secondary-text-color);
+/* Body Medium */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-list-link:hover,
+.header-list-link:focus{
+    color: var(--ocean, #404BBF);
+}
+
+.header-address{
+    font-style: normal;
+}
+
+.header-address-link{
+    color: var(--slate, #434455);
+/* Body */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-address-link:hover,
+.header-address-link:focus{
+    color: var(--ocean, #404BBF);
+}
+
+
+.hero {
+    background-color: var(--secondary-text-color);
+}
+.hero-title {
+    color: var(--white, #FFF);
+text-align: center;
+/* Header 1 */
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+.hero-btn {
+    cursor: pointer;
+    background-color: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+   
+}
+.hero-btn:is(:hover,:focus){
+    background-color: var(--ocean, #404BBF);
+}
+
+
+
+.advantages-subtitle {
+    color: var(--secondary-text-color);
+/* Header 3 */
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.advantages-item-text {
+    color: var(--slate, #434455);
+/* Body */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.section-title {
+    color: var(--secondary-text-color);
+    background-color: #F4F4FD;
+text-align: center;
+/* Header 2 */
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.local-title{
+    color: var(--secondary-text-color);
+/* Header 3 */
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.section-text {
+    color: var(--slate, #434455);
+/* Body */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.footer{
+    background: var(--secondary-text-color);
+
+}
+.footer-logo {
+    color: var(--accent-text-color);
+font-size: 18px;
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.footer-logo-accent {
+    color: var(--iris, #f4f4fd);
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer-text{
+    color: var(--cloud, #F4F4FD);
+/* Body */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.filter-btn {
+    cursor: pointer;
+    color: var(--iris, #4D5AE5);
+text-align: center;
+/* Button Text */
+font-size: 16px;
+font-family: inherit;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+border: 1px solid var(--cornflower, #E7E9FC);
+background: var(--cloud, #F4F4FD);
+}
+
+.filter-btn:is(:hover,:focus){
+    color: var(--white, #FFF);
+text-align: center;
+/* Button Text */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background: var(--ocean, #404BBF);
+}
+
+.portfolio{
+    background-color: #F4F4FD;
+}
+
+.portfolio-title{
+    color: var(--secondary-text-color);
+/* Header 3 */
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.portfolio-text{
+    color: var(--slate, #434455);
+/* Body */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
