@@ -59,7 +59,12 @@ body {
     list-style-type: none;
 }
 
-/**-----------------------HEADER-----------------------**/
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+/*!-----------------------HEADER-----------------------!*/
 
 .header{
     padding-top: 24px;
@@ -134,7 +139,7 @@ letter-spacing: 0.02em;
     color: var(--ocean, #404BBF);
 }
 
-/**-----------------------HERO-----------------------**/
+/*!-----------------------HERO-----------------------!*/
 
 .hero {
     background-color: var(--secondary-text-color);
@@ -175,9 +180,10 @@ margin-bottom: 48px;
     background-color: var(--ocean, #404BBF);
 }
 
+
+/*!-----------------------ADVANTAGES-----------------------!*/
 .advantages{
     padding-top: 120px;
-    padding-bottom: 120px;
     
 }
 
@@ -207,14 +213,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.we-do{
-    text-align: center;
-}
 
-.we-do-container{
-    padding-top: 120px 0;
-}
 
+/*!-----------------------WHAT ARE WE DOING-----------------------!*/
 
 .section-title {
     color: var(--secondary-text-color);
@@ -224,20 +225,36 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin: 0 auto;
+text-align: center;
 margin-bottom: 72px;
+padding-top: 120px;
 }
 
 
 .image-list{
     display: flex;
     gap: 24px;
-    margin-top: 72px;
     padding-bottom: 120px;
-    width: calc((100% - 24px * 2) / 3);
-
-
 }
+.image-list-item{
+    width: calc((100% - 24px * 2) / 3);
+}
+
+/*!-----------------------TEAM-----------------------!*/
+
+.team-section{
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+.team-list-item{
+    background-color: #FFFFFF;
+    width: calc((100% - 24px * 3) / 4);
+} 
 
 
 .team-text-container{
@@ -266,19 +283,25 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 
-.team-section{
-    display: flex;
-    margin: 0 auto;
-}
-.team-list{
-    display: flex;
-    gap: 24px;
-    width: calc((100% - 24px * 3) / 4);
-}
+
+
+
+
+
+
+
+
+/*!-----------------------FOOTER-----------------------!*/
+
 
 .footer{
     background: var(--secondary-text-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+}
+.footer-container{
+    margin: 0 auto;
 }
 .footer-logo {
     color: var(--accent-text-color);
@@ -288,6 +311,7 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+
 }
 
 .footer-logo-accent {
@@ -305,8 +329,19 @@ text-transform: uppercase;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-top: 16px;
+max-width: 264px;
 }
 
+/*!-----------------------FILTER LIST-----------------------!*/
+
+
+.filter-list{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    
+}
 .filter-btn {
     cursor: pointer;
     color: var(--iris, #4D5AE5);
@@ -319,7 +354,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 border: 1px solid var(--cornflower, #E7E9FC);
 background: var(--cloud, #F4F4FD);
+padding: 12px 24px 12px 24px;
+border-radius: 4px;
+margin-bottom: 72px;
 }
+
+
 
 .filter-btn:is(:hover,:focus){
     color: var(--white, #FFF);
@@ -331,11 +371,23 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background: var(--ocean, #404BBF);
 }
-
+/*!-----------------------PORTFOLIO-----------------------!*/
 .portfolio{
-    background-color: #F4F4FD;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.portfolio-list-item{
+    width: calc((100% - 24px * 2) / 3);
+
+}
 .portfolio-title{
     color: var(--secondary-text-color);
 /* Header 3 */
@@ -343,6 +395,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .portfolio-text{
     color: var(--slate, #434455);
@@ -352,11 +405,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.team-list-item{
-    background-color: #FFFFFF;
-}
+.name{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
 
-.team-section {
-    background-color: #F4F4FD;
+}
+.border-container{
+    border: 1px solid var(--cornflower, #E7E9FC);
 }
 
