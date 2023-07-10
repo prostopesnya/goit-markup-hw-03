@@ -67,7 +67,6 @@ img {
 /*!-----------------------HEADER-----------------------!*/
 
 .header{
-    padding: 24px 0;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 .header-logo {
@@ -95,6 +94,7 @@ margin-right: 76px;
 .header-navigation{
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 
@@ -125,6 +125,7 @@ letter-spacing: 0.02em;
 .header-address-list{
     display:flex;
     gap:40px;
+    padding: 24px 0;
     
 }
 
@@ -145,11 +146,10 @@ letter-spacing: 0.02em;
 .hero {
     background-color: var(--secondary-text-color);
     text-align: center;
+    padding: 188px 0;
+    text-align: center;
 }
 
-.hero-container{
-    padding: 188px 0;
-}
 .hero-title {
     color: var(--white, #FFF);
     text-align: center;
@@ -175,6 +175,9 @@ margin-bottom: 48px;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
+    display: block;
+    min-width: 169px;
+    margin: 0 auto;
    
 }
 .hero-btn:is(:hover,:focus){
@@ -184,7 +187,7 @@ margin-bottom: 48px;
 
 /*!-----------------------ADVANTAGES-----------------------!*/
 .advantages{
-    padding-top: 120px;
+    padding: 120px 0;
     
 }
 
@@ -217,7 +220,9 @@ letter-spacing: 0.02em;
 
 
 /*!-----------------------WHAT ARE WE DOING-----------------------!*/
-
+.we-do{
+    padding-bottom: 120px;
+}
 .section-title {
     color: var(--secondary-text-color);
 /* Header 2 */
@@ -228,14 +233,12 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 margin-bottom: 72px;
-padding-top: 120px;
 }
 
 
 .image-list{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 .image-list-item{
     width: calc((100% - 24px * 2) / 3);
@@ -245,7 +248,7 @@ padding-top: 120px;
 
 .team-section{
     background-color: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-list{
@@ -255,12 +258,12 @@ padding-top: 120px;
 .team-list-item{
     background-color: #FFFFFF;
     width: calc((100% - 24px * 3) / 4);
+    border-radius: 0px 0px 4px 4px;
 } 
 
 
 .team-text-container{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     width: 232px;
     margin: 0 auto;
 }
@@ -312,6 +315,8 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px;
 
 }
 
