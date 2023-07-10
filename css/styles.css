@@ -79,9 +79,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
 }
-.header-list-point{
-    padding: 24px 0;
-}
 
 
 .header-logo-accent{
@@ -112,6 +109,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 }
 
 .header-list-link:hover,
