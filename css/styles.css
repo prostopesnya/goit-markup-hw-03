@@ -79,6 +79,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
 }
+.header-list-point{
+    padding: 24px 0;
+}
 
 
 .header-logo-accent{
@@ -94,7 +97,6 @@ margin-right: 76px;
 .header-navigation{
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 
