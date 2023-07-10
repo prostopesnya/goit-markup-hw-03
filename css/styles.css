@@ -67,8 +67,8 @@ img {
 /*!-----------------------HEADER-----------------------!*/
 
 .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 .header-logo {
     color: var(--accent-text-color);
@@ -78,6 +78,7 @@ font-weight: 800;
 line-height: 1.17; /* 21px/18 */
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 
 
@@ -93,13 +94,13 @@ text-transform: uppercase;
 }
 .header-navigation{
     display: flex;
+    align-items: center;
 }
 
 
 .header-list{
     display:flex;
     gap:40px;
-    margin-left:76px;
 }
 
 .header-list-link {
@@ -340,6 +341,7 @@ max-width: 264px;
     display: flex;
     gap:24px;
     justify-content: center;
+    margin-bottom: 72px;
     
 }
 .filter-btn {
@@ -356,7 +358,7 @@ border: 1px solid var(--cornflower, #E7E9FC);
 background: var(--cloud, #F4F4FD);
 padding: 12px 24px 12px 24px;
 border-radius: 4px;
-margin-bottom: 72px;
+
 }
 
 
@@ -370,6 +372,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background: var(--ocean, #404BBF);
+border: 1px solid transparent
 }
 /*!-----------------------PORTFOLIO-----------------------!*/
 .portfolio{
@@ -381,6 +384,7 @@ background: var(--ocean, #404BBF);
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px
 }
 
 
@@ -406,14 +410,9 @@ letter-spacing: 0.02em;
 }
 
 .name{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     
 
 }
-.border-container{
-    border: 1px solid var(--cornflower, #E7E9FC);
-}
-
